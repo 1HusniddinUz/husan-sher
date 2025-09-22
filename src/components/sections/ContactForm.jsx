@@ -9,50 +9,58 @@ const ContactForm = () => {
                     <div className="contactInfo">
                         <h3>Contacts</h3>
                         <p>
-                            General Manager : <span>Husniddin Xalimov</span>
+                            General Manager : <span>HUSENOV SHERMAT</span>
                         </p>
                         <p>
-                            Phone : <span>{`+998 (91) 820-84-46`}</span>
+                            Phone : <span>{`+998 (99) 124-45-58`}</span>
                         </p>
                         <p>
                             Email :{" "}
                             <span>
                 <a
-                    href="https://husniddinhalimov@example.com"
+                    href="https://yuldashevjoxa007@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                  husniddinhalimov@example.com
+                 yuldashevjoxa007@gmail.com
                 </a>
               </span>
                         </p>
                     </div>
                     <div className="contactSocialLink">
-                        <a
-                            href="https://t.me/xusni_axi"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <i class="fa-brands fa-telegram"></i>
-                        </a>
-                        <a
-                            href="https://t.me/xusni_axi"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a
-                            href="https://t.me/xusni_axi"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
+                        <div className="link_box">
+                            <a
+                                href="https://t.me/yuldashev6106"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fa-brands fa-telegram" target="_blank"
+                                   rel="noopener noreferrer"></i>
+                            </a>
+                            <a href="https://t.me/yuldashev6106"  target="_blank"
+                               rel="noopener noreferrer">
+                                <button>TELEGRAM</button>
+                            </a>
+                        </div>
+                        <div className="link_box">
+                            <a
+                                href="https://www.instagram.com/husenov_shermat"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/husenov_shermat"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <button>INSTAGRAM</button>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
                 <div className="contactLogo">
-                    <img src={Logo}alt="Logo" />
+                    <img src={Logo} alt="Logo"/>
                 </div>
                 <div className="contactLocation">
                     <h3>Location</h3>
