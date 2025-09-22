@@ -1,21 +1,23 @@
 import React from "react";
 import "../../assets/ContactForm.css";
 import Logo from "../../assets/media/logo.png"
+import {useTranslation} from "react-i18next";
 const ContactForm = () => {
+    const {t} = useTranslation();
     return (
         <div id="ContactForm">
             <div className="container">
                 <div className="contactText">
                     <div className="contactInfo">
-                        <h3>Contacts</h3>
+                        <h3>{t(`contact`)}</h3>
                         <p>
-                            General Manager : <span>HUSENOV SHERMAT</span>
+                            {t(`generalManager`)} : <span>HUSENOV SHERMAT</span>
                         </p>
                         <p>
-                            Phone : <span>{`+998 (99) 124-45-58`}</span>
+                            {t(`phone`)} : <span>{`+998 (99) 124-45-58`}</span>
                         </p>
                         <p>
-                            Email :{" "}
+                            {t(`email`)} :{" "}
                             <span>
                 <a
                     href="https://yuldashevjoxa007@gmail.com"
@@ -63,7 +65,7 @@ const ContactForm = () => {
                     <img src={Logo} alt="Logo"/>
                 </div>
                 <div className="contactLocation">
-                    <h3>Location</h3>
+                    <h3>{t(`location`)}</h3>
                     <iframe
                         title="map"
                         src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6130.114642563849!2d64.253006!3d39.805706!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQ4JzIwLjUiTiA2NMKwMTUnMTAuOCJF!5e0!3m2!1sru!2s!4v1747136757081!5m2!1sru!2s"

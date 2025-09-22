@@ -1,18 +1,18 @@
 import "../../assets/AboutUs.css"
+import {useTranslation} from "react-i18next";
 const AboutUs = () => {
+    const {t} = useTranslation();
     return(
         <div id="AboutUs">
             <div className="container">
                 <div className="about_bg">
-                    <p>About Us</p>
+                    <p>{t(`about`)}</p>
                 </div>
-                <h3>The beautiful story of Company</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea earum eos eum iste nihil nostrum quam quas quasi ratione, recusandae repudiandae sit.
-                </p>
+                <h3>{t(`quotes`)}</h3>
+                <p>{t(`aboutUsRightP`)}</p>
                 <div className="about_link">
-                    <button>PRODUCTS</button>
-                    <button>CONTACT US</button>
+                    <a href="#Products"><button>{t(`products`)}</button></a>
+                    <a href="#ContactForm"><button>{t(`contact`)}</button></a>
                 </div>
             </div>
         </div>
