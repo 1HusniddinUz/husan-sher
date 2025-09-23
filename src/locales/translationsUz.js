@@ -6,7 +6,11 @@ const translationsUz = {
   contact: `Call Markaz`,
   quotes: `Moda va meros uyg'unligi`,
   aboutUsSpan: `Bizning farqimiz sifatli xizmatdir.`,
-  aboutUsRightP: `Biz har doim mijozlarimiz bilan halolmiz va o'nlab yillar davomida muammosiz ishlaydigan ishonchli, optimal yechimlarni taqdim etamiz.`,
+  aboutUsRightP: `HUSAN SHER — hunarmandchilik va mahorat uyg‘unlashgan maskan. Ustaxonamiz Buxoro viloyati, Peshku tumani, Peshku mahallasida joylashgan bo‘lib, 15 yildan ortiq vaqt mobaynida mijozlarimizga sifatli shuba va telpaklarni taqdim etib kelmoqda.
+
+Biz uchun qoko‘l terisi oddiy xomashyo emas, balki san’at asariga aylantirish mumkin bo‘lgan bebaho ne’matdir. Har bir mahsulot qo‘lda, ustalik va mehr bilan yaratiladi. Natijada, nafaqat issiq va qulay, balki o‘zida milliylik va nafislikni mujassam etgan noyob kiyimlar dunyoga keladi.
+
+Yillar davomida bizning hunarimiz ko‘plab mijozlarning ishonchi va minnatdorligiga sazovor bo‘ldi. Har bir buyurtma biz uchun yangi mas’uliyat, yangi imkoniyat va mijozning quvonchini ko‘rish baxtidir.`,
   aboutUsBtn: `Kompaniya haqida batafsil`,
   featuresH3: `Elektr to'lovlarini tejash`,
   featuresP: `Quyosh energiyasi bilan quyoshdan toza energiyani bepul ishlab chiqaring. Energiyangizni istalgan vaqtda ishlatish uchun saqlash uchun Powerwall qo‘shing. Quyosh tizimingiz uchun eng yaxshi narxni olishingizga yordam beradigan soliq imtiyozlari va moslashuvchan moliyalashtirish variantlari mavjud bo'lishi mumkin. Quyosh panellarini o'rnatish orqali siz an'anaviy energiya manbalariga bo'lgan ishonchni ham kamaytirishingiz mumkin.`,
