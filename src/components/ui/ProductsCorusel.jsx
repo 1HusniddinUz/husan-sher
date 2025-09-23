@@ -16,13 +16,13 @@ import img7 from "../../assets/media/7.jpg"
 import "../../assets/ProductCorusel.css"
 
 const products = [
-    { id: 1, name: "Ayollar zar сhoponi", img: img1, price: 75, type: "Clothes" },
-    { id: 2, name: "Erkaklar zar choponi", img: img2, price: 12, type: "Bags" },
-    { id: 3, name: "Erkaklar zar choponi", img: img3, price: 17, type: "Bags" },
-    { id: 4, name: "Ayollar zar сhoponi", img: img4, price: 65, type: "Clothes" },
-    { id: 5, name: "Erkaklar zar choponi", img: img5, price: 80, type: "Clothes" },
-    { id: 6, name: "Erkaklar zar сhoponi", img: img6, price: 65, type: "Bags" },
-    { id: 7, name: "Ayollar zar сhoponi", img: img7, price: 65, type: "Bags" },
+    { id: 1, name: "KARAKUL TELPAK", img: img1, price: 75, type: "Clothes" },
+    { id: 2, name: "WOMEN BROWN SHUBA", img: img2, price: 12, type: "Bags" },
+    { id: 3, name: "WOMEN SHUBA", img: img3, price: 17, type: "Bags" },
+    { id: 4, name: "WOLF TELPAK", img: img4, price: 65, type: "Clothes" },
+    { id: 5, name: "KARAKUL TELPAK", img: img5, price: 80, type: "Clothes" },
+    { id: 6, name: "KARAKUL TELPAK", img: img6, price: 65, type: "Bags" },
+    { id: 7, name: "KARAKUL TELPAK", img: img7, price: 65, type: "Bags" },
     // { id: 8, name: "Ayollar ko'ylagi", img: img8, price: 37, type: "Clothes" },
 ];
 

@@ -39,7 +39,7 @@ const ContactForm = () => {
                                 <i className="fa-brands fa-telegram" target="_blank"
                                    rel="noopener noreferrer"></i>
                             </a>
-                            <a href="https://t.me/yuldashev6106"  target="_blank"
+                            <a href="https://t.me/yuldashev6106" target="_blank"
                                rel="noopener noreferrer">
                                 <button>TELEGRAM</button>
                             </a>
@@ -58,6 +58,14 @@ const ContactForm = () => {
                                 <button>INSTAGRAM</button>
                             </a>
                         </div>
+                        <div className="link_box">
+                            <a href="https://uzum.uz/uz/shop/husansher" target="_blank"
+                               rel="noopener noreferrer">
+                                <i className="fa-brands fa-yandex"></i>
+                                <button>YANDEX MARKET</button>
+                            </a>
+                        </div>
+
 
                     </div>
                 </div>
