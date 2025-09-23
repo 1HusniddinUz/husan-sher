@@ -17,8 +17,8 @@ import "../../assets/ProductCorusel.css"
 
 const products = [
     { id: 1, name: "KARAKUL TELPAK", img: img1, price: 75, type: "Clothes" },
-    { id: 2, name: "WOMEN BROWN SHUBA", img: img2, price: 12, type: "Bags" },
-    { id: 3, name: "WOMEN SHUBA", img: img3, price: 17, type: "Bags" },
+    { id: 2, name: "WOMEN BROWN SHUBA", img: img2, price: 425, type: "Bags" },
+    { id: 3, name: "WOMEN SHUBA", img: img3, price: 350, type: "Bags" },
     { id: 4, name: "WOLF TELPAK", img: img4, price: 65, type: "Clothes" },
     { id: 5, name: "KARAKUL TELPAK", img: img5, price: 80, type: "Clothes" },
     { id: 6, name: "KARAKUL TELPAK", img: img6, price: 65, type: "Bags" },

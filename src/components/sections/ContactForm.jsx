@@ -76,7 +76,7 @@ const ContactForm = () => {
                     <h3>{t(`location`)}</h3>
                     <iframe
                         title="map"
-                        src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6130.114642563849!2d64.253006!3d39.805706!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQ4JzIwLjUiTiA2NMKwMTUnMTAuOCJF!5e0!3m2!1sru!2s!4v1747136757081!5m2!1sru!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6115.257172022556!2d64.51145!3d39.972056!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDU4JzE5LjQiTiA2NMKwMzAnNDEuMiJF!5e0!3m2!1sru!2s!4v1758601992065!5m2!1sru!2s"
                         width="100%"
                         height="450"
                         style={{
